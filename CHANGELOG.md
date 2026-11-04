@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.0.0-alpha.10](https://github.com/sheerlox/semantic_release/compare/v1.0.0-alpha.9...v1.0.0-alpha.10) (2026-11-04)
+
+### ⚠ Breaking changes
+
+* the minimum supported Elixir version is now 1.16.
+
+* build(deps): update minimum nodelix version to 1.0.0-alpha.16
+* the minimum supported Elixir version is now 1.16.
+
+### ⚙️ Continuous Integrations
+
+* drop Elixir < 1.16, test against 1.16-1.20 and update nodelix ([#27](https://github.com/sheerlox/semantic_release/issues/27)) ([91844b1](https://github.com/sheerlox/semantic_release/commit/91844b17a2f90c8dab18b84f83d1e4f798fbeeaf))
+* **renovate:** extend required base config ([6755da2](https://github.com/sheerlox/semantic_release/commit/6755da23ecc3b9a8f5edc4c8c7cdb29113b0374f))
+* **renovate:** use Unill presets instead of Insurgent Lab's ([641bfcd](https://github.com/sheerlox/semantic_release/commit/641bfcd221189d8920d2bb0f21de88c8947a29f0))
+
 ## [1.0.0-alpha.9](https://github.com/unill-io/semantic_release/compare/v1.0.0-alpha.8...v1.0.0-alpha.9) (2025-01-10)
 
 ### 🛠 Builds

@@ -1,7 +1,7 @@
 defmodule SemanticRelease.MixProject do
   use Mix.Project
 
-  @version "1.0.0-alpha.9"
+  @version "1.0.0-alpha.10"
   @source_url "https://github.com/unill-io/semantic_release"
 
   def project do
