@@ -8,7 +8,7 @@ defmodule SemanticRelease.MixProject do
     [
       app: :semantic_release,
       version: @version,
-      elixir: "~> 1.12",
+      elixir: "~> 1.16",
       deps: deps(),
       dialyzer: dialyzer(),
       description: description(),
@@ -25,7 +25,7 @@ defmodule SemanticRelease.MixProject do
 
   defp deps do
     [
-      {:nodelix, "~> 1.0.0-alpha.15", runtime: false},
+      {:nodelix, "~> 1.0.0-alpha.16", runtime: false},
       {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
